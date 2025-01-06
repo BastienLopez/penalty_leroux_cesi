@@ -15,7 +15,7 @@ def find_in_tree(node: Dict[str, Any], target: str) -> Optional[Dict[str, Any]]:
     return None
 
 # Exercice 2 : Majuscules et emojis
-def upper_case_and_surround_with_emoji(text: str) -> str:
+def upper_case_and_surround(text: str) -> str:
     """
     Transforme une chaîne en majuscules et l'entoure avec des emojis  .
     """

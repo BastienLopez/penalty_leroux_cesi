@@ -23,7 +23,7 @@ def main():
     print(f"Résultat pour {target} : {result}")
 
     # Exercice 2 : Modifier l'arbre avec des emojis
-    modified_tree = modify_as_you_go(pastaTree, upper_case_and_surround_with_emoji)
+    modified_tree = modify_as_you_go(pastaTree, upper_case_and_surround)
     print("Arbre modifié avec des emojis :", modified_tree)
 
     # Exercice 3 : Obtenir toutes les valeurs de l'arbre

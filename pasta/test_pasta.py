@@ -23,8 +23,8 @@ class TestPastaUtils(unittest.TestCase):
         result = find_in_tree(self.tree, "Gnocchi")
         self.assertEqual(result["name"], "Gnocchi")
 
-    def test_upper_case_and_surround_with_emoji(self):
-        result = upper_case_and_surround_with_emoji("Spaghetti")
+    def test_upper_case_and_surround(self):
+        result = upper_case_and_surround("Spaghetti")
         self.assertEqual(result, "SPAGHETTI DE LA MAMA")
 
     def test_get_all_values(self):
